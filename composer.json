@@ -2,11 +2,18 @@
     "name": "danielhomer/wp-bootstrap-navwalker",
     "description": "A custom WordPress nav walker class to fully implement the Twitter Bootstrap 3.0+ navigation style in a custom theme using the WordPress built in menu manager.",
     "license": "GNU2",
+    "type": "wordpress-theme-include",
     "authors": [
         {
             "name": "twittem",
             "email": "edward@edwardmcintyre.com"
+        },
+        {
+            "name": "danielhomer",
+            "email": "danielhomer@me.com"
         }
     ],
-    "require": {}
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }
